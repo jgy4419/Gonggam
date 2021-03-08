@@ -1,0 +1,122 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap');
+
+.header
+{
+    position: relative; 
+    margin: 50px auto;
+    padding: 70px;
+    height: 100px;
+
+}
+.header .Title_name
+{
+    font-size: 50px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.header .search
+{
+    position: absolute;
+    left: 800px;
+    top: 200px;
+    margin: 0;
+    outline: none;
+}
+/* 검색 창 촤우 위 아래 크기 조정 */
+.header .search_text
+{
+    outline: none;
+    width: 450px;
+    height: 25px;
+}
+/* 검색 버튼 좌우 위 아래 크기 조장 */
+.header .search_button
+{
+    width: 45px;
+    height: 32px;
+}
+/* 밥 이미지 크기, 모양, 위치 조정 */
+.section1 .cook1
+{
+    position: relative;
+    left: 150px;
+    top: 100px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.section2 .cook2
+{
+    position: relative;
+    left: 450px;   
+    top: -100px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.section3 .cook3
+{
+    position: relative;
+    left: 750px;   
+    top: -300px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.section4 .cook4
+{
+    position: relative;
+    left: 1050px;   
+    top: -500px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.section5 .cook5
+{
+    position: relative;
+    left: 150px;   
+    top: -400px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.section6 .cook6
+{
+    position: relative;
+    left: 450px;   
+    top: -600px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.section7 .cook7
+{
+    position: relative;
+    left: 750px;   
+    top: -800px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.section8 .cook8
+{
+    position: relative;
+    left: 1050px;   
+    top: -1000px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+
+}
+.footer
+{
+    position: relative;
+    top: -950px;
+    left: 130px;
+}
+.footer .write_button
+{
+    width: 30px auto;
+    height: 30px;
+}
