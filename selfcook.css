@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap');
+
+/*
+1. 최상위에 있는 박스부터 레이아웃을 배치
+2. 그 안의 내용들을 세부적으로 꾸며준다. 
+*/
+body
+{
+    padding: 1px;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: 	#9ACD32;
+    padding: 0px 12px;
+}
+.navbar_logo{
+    font-size: 24px;
+    color: white;
+}
+.navbar_logo i {
+    color: 	#EEE8AA;
+}
+/* 메뉴 꾸미기 */
+.navbar_menu{
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+.navbar_menu li{
+    padding: 8px 25px;
+    transition: all 2s;
+}
+.navbar_menu li:hover:not(.action){
+    position: relative;
+    color: white;
+}
+.navbar_menu li:hover{
+    position: relative;
+    background-color: #FAFAD2;
+    border-radius: 5px;
+    color: white;
+}
+.navbar_icons{
+    list-style: none;
+    color: white;
+    display: flex;
+    padding-left: 0;
+}
+.navbar_icons li{
+    padding: 8px 12px;
+}
+.section1 .cook1
+{
+    position: relative;
+    left: 150px;
+    top: 100px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    
+}
+.section2 .cook2
+{
+    position: relative;
+    left: 450px;   
+    top: -100px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.section3 .cook3
+{
+    position: relative;
+    left: 750px;   
+    top: -300px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.section4 .cook4
+{
+    position: relative;
+    left: 1050px;   
+    top: -500px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.section5 .cook5
+{
+    position: relative;
+    left: 150px;   
+    top: -400px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.section6 .cook6
+{
+    position: relative;
+    left: 450px;   
+    top: -600px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.section7 .cook7
+{
+    position: relative;
+    left: 750px;   
+    top: -800px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.section8 .cook8
+{
+    position: relative;
+    left: 1050px;   
+    top: -1000px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+
+}
+.footer
+{
+    position: relative;
+    padding: 0px 50px;
+    top: -950px;
+}
+.footer .write_button
+{
+    width: 30px auto;
+    height: 30px;
+}
+@media screen and (max-width: 768px){
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 8px 24px;
+    }
+    .navbar_menu{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .navbar_menu li{
+        width: 100%;
+        text-align: center;
+    }
+    .navbar_icons{
+        justify-content: center;
+        width: 100%;
+    }
+    .main{
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+    .main .section1 .cook1{
+        flex-direction: column;
+        align-items: flex-start;
+        top: 100px;
+        left: 50px;
+        height: 200px;
+        width: 200px;
+    }
+    .main .section2 .cook2{
+        flex-direction: column;
+        align-items: center;
+        top: 150px;
+        left: 50px;
+        height: 200px;
+        width: 200px;
+    }
+    .main .section3 .cook3{
+        flex-direction: column;
+        align-items: center;
+        height: 200px;
+        width: 200px;
+        top: 200px;
+        left: 50px;
+    }
+    .main .section4 .cook4{
+        flex-direction: column;
+        align-items: center;
+        height: 200px;
+        width: 200px;
+        top: 250px;
+        left: 50px;
+    }
+    .main .section5 .cook5{
+        flex-direction: column;
+        align-items: center;
+        height: 200px;
+        width: 200px;
+        top: -720px;
+        left: 450px;
+    }
+    .main .section6 .cook6{
+        flex-direction: column;
+        align-items: center;
+        height: 200px;
+        width: 200px;
+        top: -670px;
+        left: 450px;
+    }
+    .main .section7 .cook7{
+        flex-direction: column;
+        align-items: center;
+        height: 200px;
+        width: 200px;
+        top: -620px;
+        left: 450px;
+    }
+    .main .section8 .cook8{
+        flex-direction: column;
+        align-items: center;
+        height: 200px;
+        width: 200px;
+        top: -570px;
+        left: 450px;
+    }
+    .footer
+    {
+        display: none;
+    }
+}
